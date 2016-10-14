@@ -7,7 +7,7 @@ $(document).ready(function(){
 //nieuw object XMLHttpRequest
     var xmlhttp = new XMLHttpRequest();
 //url waarin de php file staat die data ophaalt
-    var url = "http://localhost/HtmlAjaxKandidaat/QueryFuncties.php";
+    var url = "http://localhost/KandidatenQuery/php//QueryFuncties.php";
 //check of XMLHttpRequest klaar is en goed gegaan is, zoja functie dropdown aanroepen
     xmlhttp.onreadystatechange=function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -21,7 +21,7 @@ $(document).ready(function(){
 //tweede ajax call voor regio dropdown
     var xmlhttp2 = new XMLHttpRequest();
 
-    var url = "http://localhost/HtmlAjaxKandidaat/QueryRegio.php";
+    var url = "http://localhost/KandidatenQuery/php/QueryRegio.php";
     
     xmlhttp2.onreadystatechange=function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -34,7 +34,7 @@ $(document).ready(function(){
 //tweede ajax call voor user dropdown
     var xmlhttp3 = new XMLHttpRequest();
 
-    var url = "http://localhost/HtmlAjaxKandidaat/QueryUser.php";
+    var url = "http://localhost/KandidatenQuery/php/QueryUser.php";
     
     xmlhttp3.onreadystatechange=function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -169,7 +169,7 @@ $(document).ready(function(){
         $.ajax({
             type: "POST",
             contentType: "application/json",
-            url:"http://localhost/HtmlAjaxKandidaat/QueryJson.php",
+            url:"http://localhost/KandidatenQuery/php/QueryJson.php",
             data : '[{"functieNaam":"' + functieSel + '", "regioNaam":"' + regioSel + '", "userId":"' + user[userSel] + '" } ]',
             dataType: "text",
 //de call is goed gegaan, myFunction wordt aangeroepen met de ontvangen data
@@ -188,7 +188,8 @@ $(document).ready(function(){
                         "<th>Id</th>" + 
                         "<th>Naam</th>" + 
                         "<th>Telefoon</th>" + 
-                        "<th>CV</th>" +
+                        "<th>CV</th>" + 
+                        "<th>Profiel</th>" +
                   "</tr>";
 //doorloop de array en maak ht,l tabel aan
         for(i = 0; i < arr.length; i++) {
@@ -199,7 +200,7 @@ $(document).ready(function(){
             arr[i].Achternaam + 
             "</td><td>" +
             arr[i].Telefoon +
-            "</td><td><a href = 'http://localhost/HtmlAjaxKandidaat/cv/" +
+            "</td><td><a href = 'http://localhost/KandidatenQuery/cv/" +
             arr[i].Cv + "' target = '_blank' >cv</a>" +  
             "</td><td><button class='profiel'>Profiel</button>" +
             "</td></tr>";
@@ -221,7 +222,7 @@ $(document).ready(function(){
 //bewaar de user_id om deze in de profiel pagina te gebruiken
         sessionStorage.user = id;
 //ga naar de profelpagina
-        window.open ("http://localhost/HtmlAjaxKandidaat/profiel.html", "_blank");
+        window.open ("http://localhost/KandidatenQuery/pages/profiel.html", "_blank");
         
     }
     

@@ -3,13 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/newPage.html</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/ajax.js</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/QueryFuncties.php</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/ajax.css</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/ajax2.js</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/QueryJson.php</file>
-            <file>file:/C:/xampp/htdocs/HtmlAjaxKandidaat/QueryHtmlPhp.html</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/php/QueryFuncties.php</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/pages/functies.html</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/js/ajax2.js</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/php/updateFunctie.php</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/js/ajax3.js</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/pages/kandidatenSelectie.html</file>
         </group>
     </open-files>
 </project-private>

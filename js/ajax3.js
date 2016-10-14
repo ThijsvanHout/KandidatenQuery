@@ -4,7 +4,7 @@
         $.ajax({
                 type: "POST",
                 contentType: "application/json",
-                url:"http://localhost/HtmlAjaxKandidaat/profielQuery.php",
+                url:"http://localhost/KandidatenQuery/php/profielQuery.php",
                 data : '[{"userId":"' + id + '" } ]',
                 dataType: "text",
                 
