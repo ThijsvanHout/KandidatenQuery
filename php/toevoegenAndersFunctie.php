@@ -1,6 +1,6 @@
 <?php
 
-include "bepaalFunctieId.php";
+include "includeFunctions.php";
 //moet meegeven worden voor de json data
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");

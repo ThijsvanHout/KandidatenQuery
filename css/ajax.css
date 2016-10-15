@@ -42,3 +42,15 @@ table tr:nth-child(even) {
 #opslaan {
     margin-left : 50px;
 }
+
+#meldingNieuweFunctie {
+    color : white;
+    display : none;
+    border : 2px solid red;
+    background-color : #ff9999;
+}
+
+#refFunctie {
+    color : white;
+    text-decoration: underline;
+}

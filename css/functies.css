@@ -25,6 +25,14 @@
     margin-bottom : 100px;
 }
 
+.updateIcon {
+    color : blue;
+}
+
+.deleteIcon {
+    color : red;
+}
+
 
 /*#checkboxFunctie {
     float : left;

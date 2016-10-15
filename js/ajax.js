@@ -44,6 +44,19 @@ $(document).ready(function(){
     };
     xmlhttp3.open("GET", url, true);
     xmlhttp3.send();
+    
+    var xmlhttp4 = new XMLHttpRequest();
+
+    var url = "http://localhost/KandidatenQuery/php/meldingNieuweFunctie.php";
+    
+    xmlhttp4.onreadystatechange=function() {
+        if (this.readyState == 4 && this.status == 200) {
+            
+            melding(this.responseText);     
+        }
+    };
+    xmlhttp4.open("GET", url, true);
+    xmlhttp4.send();
 //functie waarin de ajax call om data van de kadiaat_vw te halen   
 //eerste keer wordem alle kandidaten opgehaald
     selectKandidaat();   
@@ -227,3 +240,12 @@ $(document).ready(function(){
     }
     
     }); 
+    
+    function melding(response){
+        if (response == "gevonden\n"){
+            $("#meldingNieuweFunctie").css("display", "block");
+        }
+        else {
+            $("#meldingNieuweFunctie").css("display", "none");
+        }
+    }

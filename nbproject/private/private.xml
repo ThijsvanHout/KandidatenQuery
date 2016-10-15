@@ -5,9 +5,14 @@
         <group>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/php/QueryFuncties.php</file>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/pages/functies.html</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/php/bepaalFunctieId.php</file>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/js/ajax2.js</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/js/ajax.js</file>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/php/updateFunctie.php</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/php/toevoegenAndersFunctie.php</file>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/js/ajax3.js</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/css/functies.css</file>
+            <file>file:/C:/xampp/htdocs/KandidatenQuery/css/ajax.css</file>
             <file>file:/C:/xampp/htdocs/KandidatenQuery/pages/kandidatenSelectie.html</file>
         </group>
     </open-files>
